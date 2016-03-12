@@ -1,14 +1,32 @@
 {
   "name": "nbapackage",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "A small wrapper module for the NBA API endpoints",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jrmils89/nba-package.git"
+  },
+  "keywords": [
+    "nba",
+    "basketball",
+    "api",
+    "sports"
+  ],
+  "author": "Jesse Mills <jessemills1989@gmail.com> (http://www.jessermills.com/)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jrmils89/nba-package/blob/master/LICENSE-MIT"
+    }
+  ],
   "dependencies": {
     "request": "^2.69.0"
+  },
+  "bugs": {
+    "url": "https://github.com/jrmils89//nba-package/issues"
   }
 }
